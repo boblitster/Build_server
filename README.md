@@ -15,7 +15,7 @@ echo $DOCKERID
 Create docker image
 
 
-	docker image build --tag $DOCKERID/built-server:latest .
+	docker image build --tag $DOCKERID/build_server:latest .
 
 
 Run container using your new image 
