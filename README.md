@@ -36,7 +36,7 @@ ANSIBLE
 	
 	
 	
-Create playbook
+Create playbook  - this is currently not running it fails at step 6 6 install kubernetes
 		
 	nano docker-playbook.yml
 
@@ -47,3 +47,7 @@ Run playbook
 You may have to run it directly from the bash command line
 
 	./minikube.sh
+
+
+At present the Production server has
+Docker kubectly and minicube installed, but am not able to deploy the correct iamge to from dockerhub.  
