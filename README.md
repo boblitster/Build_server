@@ -51,3 +51,6 @@ You may have to run it directly from the bash command line
 
 At present the Production server has
 Docker kubectly and minicube installed, but am not able to deploy the correct iamge to from dockerhub.  
+
+
+connection test 12 dec
