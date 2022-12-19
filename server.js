@@ -20,7 +20,7 @@ var handleRequest = function(request, response) {
 
   response.write(host); 
 
-  response.end(" | v=4\n"); 
+  response.end(" | v=5\n"); 
 
   console.log("Running On:" ,host, "| Total Requests:", ++requests,"| App Uptime:", (new Date() - startTime)/1000 , "seconds", "| Log Time:",new Date());} 
 
